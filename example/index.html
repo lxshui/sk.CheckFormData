@@ -9,17 +9,33 @@
 
 <body>
     <div align='center'>
-        <form>
-            <label>姓名</label><input type="text" name="x" /><!--普通的表单-->
-            <label>密码</label><input type="password" name="p" />
-            <label>年龄</label><input type="text" name="n" sk-type='number' /><!--必须是数字的控件，只要给该控件添加-->            
-            <label for="">备注</label><textarea rows="" cols="" style="height:300px;"></textarea>
+        <form class="sk-form-check-auto"><!--给你需要的表单添加类sk-form-check-auto   -->
+            <label>姓名</label><input type="text" name="x" /><br><!--普通的表单-->
+            <label>密码</label><input type="password" name="p" /><br>
+            <label>生日</label><input type="text" name="n" sk-type='datetime' /><br><!--必须是数字的控件，只要给该控件添加-->            
+            <label>年龄</label><input type="text" name="n" sk-type='number' /><br><!--必须是数字的控件，只要给该控件添加-->            
+            <label for="">备注</label><textarea rows="" cols="" sk-isCheck='false'></textarea><br><!-- 无需检查的控件-->
+            
+            <input type="submit" value="提交" />
+        </form>
+        
+        <hr>
+        <br>
+        第二个form
+        
+        <form class="sk-form-check-auto"><!--给你需要的表单添加类sk-form-check-auto   -->
+            <label>姓名</label><input type="text" name="x" /><br><!--普通的表单-->
+            <label>密码</label><input type="password" name="p" /><br>
+            <label>生日</label><input type="text" name="n" sk-type='datetime' /><br><!--必须是数字的控件，只要给该控件添加-->            
+            <label>年龄</label><input type="text" name="n" sk-type='number' /><br><!--必须是数字的控件，只要给该控件添加-->            
+            <label for="">备注</label><textarea rows="" cols="" sk-isCheck='false'></textarea><br><!-- 无需检查的控件-->
+            
             <input type="submit" value="提交" />
         </form>
     </div>
 
 
-    <script src="../js/sk.CheckFormData.js">
+    <script src="../js/sk.CheckFormData.0.1.0.js">
     
 </script>
 </body>
