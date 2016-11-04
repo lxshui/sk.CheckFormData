@@ -9,3 +9,6 @@
     页面中的form需要在提交前验证是否都填写了
     
 >  给你想验证的form添加class：sk-form-check-auto 
+
+
+## 情景2
