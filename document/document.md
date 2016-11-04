@@ -10,7 +10,11 @@
     
 >  给你想验证的form添加class：sk-form-check-auto 
 
+> 有些控件可选填，则给控件添加属性sk-isCheck='false' ，插件即不会检查该控件。
+
+
+
 
 ## 情景2
 
->
+>页面中
